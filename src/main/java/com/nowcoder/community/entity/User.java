@@ -1,12 +1,19 @@
 package com.nowcoder.community.entity;
 
-import java.util.Date;
+import com.nowcoder.community.util.CommunityConst;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
-public class User {
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+import java.util.List;
+
+public class User implements UserDetails, CommunityConst {
     private int id;
     private String username;
     private String password;
-    private String salt;
     private String email;
     private int type;         //0-普通用户; 1-超级管理员; 2-版主;
     private int status;       //0-未激活; 1-已激活;
@@ -36,14 +43,6 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getSalt() {
-        return salt;
-    }
-
-    public void setSalt(String salt) {
-        this.salt = salt;
     }
 
     public String getEmail() {
@@ -100,7 +99,6 @@ public class User {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", salt='" + salt + '\'' +
                 ", email='" + email + '\'' +
                 ", type=" + type +
                 ", status=" + status +
@@ -108,5 +106,38 @@ public class User {
                 ", headerUrl='" + headerUrl + '\'' +
                 ", createTime=" + createTime +
                 '}';
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return this.status == 1;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        List<GrantedAuthority> list = new ArrayList<>();
+        String authority = switch (this.type) {
+            case 1 -> AUTHORITY_ADMIN;       // 超级管理员
+            case 2 -> AUTHORITY_MODERATOR;   // 版主
+            case 0 -> AUTHORITY_USER;        // 普通用户
+            default -> AUTHORITY_UNKNOWN;    // 未知权限
+        };
+        list.add(new SimpleGrantedAuthority(authority));
+        return list;
     }
 }

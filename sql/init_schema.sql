@@ -110,7 +110,7 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(50) DEFAULT NULL,
   `password` varchar(50) DEFAULT NULL,
-  `salt` varchar(50) DEFAULT NULL,
+--   `salt` varchar(50) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
   `type` int(11) DEFAULT NULL COMMENT '0-普通用户; 1-超级管理员; 2-版主;',
   `status` int(11) DEFAULT NULL COMMENT '0-未激活; 1-已激活;',

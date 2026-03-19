@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- 移动端适配核心标签 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>牛客网-权限不足</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+        /* 页面整体居中，全屏背景 */
+        body {
+            background-color: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        /* 核心容器 */
+        .denied-container {
+            text-align: center;
+            padding: 40px 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            max-width: 500px;
+            width: 100%;
+            animation: fadeIn 0.6s ease-in-out;
+        }
+        /* 403数字样式 */
+        .denied-code {
+            font-size: 8rem;
+            font-weight: 700;
+            color: #e53e3e;
+            margin-bottom: 20px;
+            letter-spacing: 10px;
+        }
+        /* 标题和描述 */
+        .denied-title {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+        .denied-desc {
+            font-size: 1rem;
+            color: #718096;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        /* 按钮组 */
+        .denied-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .denied-btn {
+            padding: 10px 25px;
+            border-radius: 6px;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .btn-home {
+            background-color: #4299e1;
+            color: #fff;
+        }
+        .btn-home:hover {
+            background-color: #3182ce;
+            transform: translateY(-2px);
+        }
+        .btn-refresh {
+            background-color: #f7fafc;
+            color: #4a5568;
+            border: 1px solid #e2e8f0;
+        }
+        .btn-refresh:hover {
+            background-color: #edf2f7;
+            transform: translateY(-2px);
+        }
+        /* 淡入动画 */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* 小屏幕适配 */
+        @media (max-width: 480px) {
+            .denied-code {
+                font-size: 6rem;
+            }
+            .denied-title {
+                font-size: 1.5rem;
+            }
+            .denied-btn {
+                padding: 8px 20px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="denied-container">
+    <div class="denied-code">403</div>
+    <h1 class="denied-title">权限不足，无法访问</h1>
+    <p class="denied-desc">你当前的账号没有权限访问该页面<br>请检查账号权限，或返回首页继续操作</p>
+    <div class="denied-buttons">
+        <button class="denied-btn btn-home" id="goHome">返回首页</button>
+        <button class="denied-btn btn-refresh" id="refreshPage">刷新页面</button>
+    </div>
+</div>
+
+<script>
+    // 绑定按钮事件
+    document.getElementById('goHome').addEventListener('click', function() {
+        // 跳转到社区首页，可根据你的项目修改为实际首页地址
+        window.location.href = CONTEXT_PATH + "/index";
+    });
+
+    document.getElementById('refreshPage').addEventListener('click', function() {
+        window.location.reload(); // 刷新当前页面
+    });
+
+    // 可选：按ESC键也能返回首页
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            window.location.href = CONTEXT_PATH + "/index";
+        }
+    });
+</script>
+</body>
+</html>

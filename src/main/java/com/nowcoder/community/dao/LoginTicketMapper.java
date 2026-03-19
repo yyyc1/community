@@ -20,7 +20,7 @@ public interface LoginTicketMapper {
             "select id, user_id, ticket, status, expired ",
             "from login_ticket where ticket = #{ticket}"
     })
-    LoginTicket setByTicket(String ticket);
+    LoginTicket selectByTicket(String ticket);
 
     @Update({
             "update login_ticket set status = #{status} ",

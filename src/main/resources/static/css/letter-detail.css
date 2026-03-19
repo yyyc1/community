@@ -1,0 +1,72 @@
+.message-scroll-container {
+    /* 1. 固定容器高度（可根据页面布局调整，推荐视口高度或固定像素） */
+    height: 550px; /* 比原有列表略高，足够展示多条消息，可自定义 */
+    /* 2. 垂直方向溢出自动出现滚动条，水平方向隐藏（避免横向滚动） */
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* 3. 容器内边距，美化布局，与原有mt-4适配 */
+    padding: 0 15px;
+    /* 4. 可选：背景色，区分页面其他区域，保留原有样式风格 */
+    background-color: #ffffff;
+    /* 5. 可选：添加轻微边框，让容器更清晰，不破坏原有样式 */
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    /* 6. 可选：滚动条样式优化（美化，非必须） */
+    scrollbar-width: thin; /* 火狐浏览器：细滚动条 */
+    scrollbar-color: #ced4da #f8f9fa; /* 火狐浏览器：滚动条颜色 */
+}
+
+/* 可选：Chrome/Edge浏览器滚动条美化（非必须，不影响功能） */
+.message-scroll-container::-webkit-scrollbar {
+    width: 6px; /* 滚动条宽度 */
+}
+.message-scroll-container::-webkit-scrollbar-track {
+    background: #f8f9fa; /* 滚动条轨道背景 */
+    border-radius: 3px;
+}
+.message-scroll-container::-webkit-scrollbar-thumb {
+    background: #ced4da; /* 滚动条滑块颜色 */
+    border-radius: 3px;
+}
+.message-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #adb5bd; /* 滚动条滑块hover颜色 */
+}
+
+
+
+.media {
+    display: flex; /* 启用Flex布局，核心布局基础 */
+    align-items: flex-start; /* 头像与对话内容顶部对齐，符合对话场景 */
+    width: 100%;
+    max-width: 800px; /* 限制对话宽度，更美观 */
+    margin: 0 auto; /* 整体居中 */
+}
+
+/* 2. 目标用户（左侧头像 + 左侧对话内容） */
+.toast-left {
+    margin-right: auto; /* 对话内容靠左侧，自动填充右侧空白 */
+    background-color: #f8f9fa; /* 浅灰背景，区分非目标用户 */
+    border-radius: 8px 8px 8px 0; /* 左侧对话气泡圆角，提升视觉体验 */
+}
+
+/* 3. 非目标用户（右侧头像 + 右侧对话内容） */
+.toast-right {
+    margin-left: auto; /* 对话内容靠右侧，自动填充左侧空白 */
+    background-color: #007bff; /* 蓝色背景，突出非目标用户 */
+    color: #fff; /* 白色文字，提高可读性 */
+    border-radius: 8px 8px 0 8px; /* 右侧对话气泡圆角 */
+}
+
+/* 4. 头像样式优化（可选，保证显示一致性） */
+.user-header {
+    width: 48px;
+    height: 48px;
+    object-fit: cover; /* 防止头像变形 */
+}
+
+/* 5. 修正toast默认样式，避免布局干扰 */
+.toast {
+    padding: 0;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

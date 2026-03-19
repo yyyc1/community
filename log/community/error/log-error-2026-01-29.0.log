@@ -1,0 +1,66 @@
+2026-01-29 15:41:54,870 ERROR [communityScheduler_Worker-2] o.q.c.JobRunShell [JobRunShell.java:211] Job communityJobGroup.postScoreRefreshJob threw an unhandled Exception: 
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.nowcoder.community.dao.DiscussPostMapper.updatScore
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1742)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy98.updatScore(Unknown Source)
+	at com.nowcoder.community.service.DiscussPostService.updateScore(DiscussPostService.java:54)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.refresh(PostScoreRefreshJob.java:86)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.execute(PostScoreRefreshJob.java:63)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2026-01-29 15:41:54,874 ERROR [communityScheduler_Worker-2] o.q.c.ErrorLogger [QuartzScheduler.java:2407] Job (communityJobGroup.postScoreRefreshJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.nowcoder.community.dao.DiscussPostMapper.updatScore
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1742)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy98.updatScore(Unknown Source)
+	at com.nowcoder.community.service.DiscussPostService.updateScore(DiscussPostService.java:54)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.refresh(PostScoreRefreshJob.java:86)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.execute(PostScoreRefreshJob.java:63)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+2026-01-29 15:46:54,853 ERROR [communityScheduler_Worker-3] o.q.c.JobRunShell [JobRunShell.java:211] Job communityJobGroup.postScoreRefreshJob threw an unhandled Exception: 
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.nowcoder.community.dao.DiscussPostMapper.updatScore
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1742)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy98.updatScore(Unknown Source)
+	at com.nowcoder.community.service.DiscussPostService.updateScore(DiscussPostService.java:54)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.refresh(PostScoreRefreshJob.java:86)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.execute(PostScoreRefreshJob.java:63)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2026-01-29 15:46:54,853 ERROR [communityScheduler_Worker-3] o.q.c.ErrorLogger [QuartzScheduler.java:2407] Job (communityJobGroup.postScoreRefreshJob threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.nowcoder.community.dao.DiscussPostMapper.updatScore
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1742)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy98.updatScore(Unknown Source)
+	at com.nowcoder.community.service.DiscussPostService.updateScore(DiscussPostService.java:54)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.refresh(PostScoreRefreshJob.java:86)
+	at com.nowcoder.community.quartz.PostScoreRefreshJob.execute(PostScoreRefreshJob.java:63)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted

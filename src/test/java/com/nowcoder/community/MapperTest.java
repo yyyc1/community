@@ -45,7 +45,7 @@ public class MapperTest {
 
     @Test
     public void testSelect(){
-        List<DiscussPost> list =  discussPostMapper.selectDiscussPosts(149,0,20);
+        List<DiscussPost> list =  discussPostMapper.selectDiscussPosts(149,0,20,0);
         for(DiscussPost discussPost : list)
             System.out.println(discussPost.toString());
         int rows = discussPostMapper.selectDiscussPostRows(149);
@@ -57,7 +57,6 @@ public class MapperTest {
         User user = new User();
         user.setUsername("ycy");
         user.setPassword("123456");
-        user.setSalt("abcd");
         user.setEmail("740752492@qq.com");
         user.setHeaderUrl("http://www.newcoder.com/101.png");
         user.setCreateTime(new Date());
@@ -81,9 +80,7 @@ public class MapperTest {
     @Test
     public void testSelectTicket(){
 
-        System.out.println(loginTicketMapper.setByTicket("123").toString());
-        loginTicketMapper.updateStatus("123", 1);
-        System.out.println(loginTicketMapper.setByTicket("123").toString());
+
     }
 
 

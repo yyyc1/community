@@ -1,6 +1,10 @@
 var CONTEXT_PATH = "/community"
 
-
+$.ajaxSetup({
+	headers: {
+		"x-requested-with": "XMLHttpRequest"
+	}
+});
 
 window.alert = function(message) {
 	if(!$(".alert-box").length) {

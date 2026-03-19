@@ -1,0 +1,601 @@
+2025-05-05 14:27:54,062 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 23 class path changes (0 additions, 22 deletions, 1 modification)
+2025-05-05 14:27:54,135 INFO [Thread-7] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 14:27:54,146 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:54,157 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 14:27:54,158 INFO [Thread-7] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:54,460 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:27:54,460 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:27:54,605 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:27:54,605 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:27:54,610 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:27:54,697 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 14:27:54,699 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:54,699 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 14:27:54,699 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 14:27:54,713 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 14:27:54,713 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 251 ms
+2025-05-05 14:27:54,806 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:27:54,881 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 14:27:54,887 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:54,889 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 14:27:54,891 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.462 seconds (process running for 354917.135)
+2025-05-05 14:27:54,892 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 14:27:55,840 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 17524 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:27:55,841 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:27:56,321 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 23 class path changes (23 additions, 0 deletions, 0 modifications)
+2025-05-05 14:27:56,322 INFO [Thread-11] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 14:27:56,322 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:56,326 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 14:27:56,326 INFO [Thread-11] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:56,416 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:27:56,416 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:27:56,441 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:27:56,443 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:27:56,529 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:27:56,529 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:27:56,532 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:27:56,566 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 118 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 14:27:56,571 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:27:56,571 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:27:56,577 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 5 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 14:27:56,583 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 14:27:56,583 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:56,583 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 14:27:56,583 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 14:27:56,589 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:27:56,590 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:27:56,595 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 14:27:56,595 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 177 ms
+2025-05-05 14:27:56,601 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 14:27:56,601 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:27:56,660 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:27:56,710 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 14:27:56,715 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:27:56,717 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 14:27:56,719 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.326 seconds (process running for 354918.964)
+2025-05-05 14:27:56,720 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 14:27:57,815 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:27:58,562 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 14:30:39,485 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 28584 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:30:39,486 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:30:39,880 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 14:30:39,881 INFO [Thread-15] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 14:30:39,881 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:30:39,885 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 14:30:39,885 INFO [Thread-15] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:30:39,961 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:30:39,961 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:30:40,049 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:30:40,051 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:30:40,079 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:30:40,079 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:30:40,083 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:30:40,141 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 14:30:40,142 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:30:40,142 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 14:30:40,143 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 14:30:40,150 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 94 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 14:30:40,154 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 14:30:40,154 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 191 ms
+2025-05-05 14:30:40,155 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:30:40,155 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:30:40,162 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 14:30:40,171 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:30:40,172 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:30:40,182 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 14:30:40,182 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:30:40,227 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:30:40,300 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 14:30:40,306 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:30:40,308 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 14:30:40,310 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.374 seconds (process running for 355082.554)
+2025-05-05 14:30:40,311 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 14:30:41,314 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:30:42,042 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 14:36:58,253 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 36184 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:36:58,254 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:36:58,433 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 14:36:58,434 INFO [Thread-19] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 14:36:58,434 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:36:58,438 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 14:36:58,439 INFO [Thread-19] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:36:58,506 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:36:58,507 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:36:58,642 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:36:58,642 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:36:58,646 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:36:58,709 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 14:36:58,710 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:36:58,710 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 14:36:58,710 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 14:36:58,723 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 14:36:58,723 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 215 ms
+2025-05-05 14:36:58,797 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:36:58,814 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:36:58,816 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:36:58,861 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 14:36:58,866 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:36:58,868 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 14:36:58,870 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.395 seconds (process running for 355461.114)
+2025-05-05 14:36:58,871 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 14:36:58,919 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 99 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 14:36:58,924 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:36:58,924 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:36:58,930 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 14:36:58,940 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:36:58,941 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:36:58,950 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 14:36:58,951 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:36:59,983 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:37:00,856 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 14:42:10,095 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 29108 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:42:10,097 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:42:10,132 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 14:42:10,133 INFO [Thread-23] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 14:42:10,134 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:42:10,138 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 14:42:10,138 INFO [Thread-23] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:42:10,202 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 14:42:10,202 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 14:42:10,341 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:42:10,341 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:42:10,344 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:42:10,396 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 14:42:10,396 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:42:10,397 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 14:42:10,397 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 14:42:10,410 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 14:42:10,410 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 206 ms
+2025-05-05 14:42:10,477 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:42:10,522 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 14:42:10,527 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 14:42:10,529 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 14:42:10,531 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.355 seconds (process running for 355772.775)
+2025-05-05 14:42:10,532 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 14:42:10,682 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:42:10,684 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:42:10,785 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 95 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 14:42:10,789 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:42:10,790 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 14:42:10,795 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 14:42:10,804 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 14:42:10,805 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 14:42:10,815 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 14:42:10,815 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 14:42:11,895 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 14:42:12,695 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:00:09,551 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 15:00:09,552 INFO [Thread-27] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 15:00:09,552 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:00:09,556 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 15:00:09,556 INFO [Thread-27] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:00:09,621 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:00:09,622 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:00:09,738 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:00:09,738 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:00:09,742 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:00:09,789 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 8464 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:00:09,791 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:00:09,806 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:00:10,383 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:00:10,385 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:00:10,482 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 91 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:00:10,486 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:00:10,487 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:00:10,492 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:00:10,501 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:00:10,502 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:00:10,511 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:00:10,511 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:00:10,857 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:12:24,188 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:12:24,189 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:12:24,300 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:12:24,300 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:12:24,303 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:12:24,358 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 15:12:24,359 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:12:24,360 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 15:12:24,360 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 15:12:24,371 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 15:12:24,371 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 181 ms
+2025-05-05 15:12:24,441 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:12:24,501 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 15:12:24,506 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:12:24,508 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 15:12:24,510 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.34 seconds (process running for 357586.753)
+2025-05-05 15:12:24,510 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 15:12:27,018 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 17888 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:12:27,020 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:12:27,611 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:12:27,613 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:12:27,710 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 92 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:12:27,715 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:12:27,715 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:12:27,720 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:12:27,730 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:12:27,731 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:12:27,742 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:12:27,743 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:12:28,957 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:12:29,800 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:13:07,737 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 25736 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:13:07,741 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:13:12,159 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:13:12,169 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:13:12,755 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 558 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:13:12,787 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:13:12,789 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:13:12,847 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 44 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:13:12,939 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:13:12,943 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:13:13,024 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:13:13,025 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:13:19,704 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:13:25,497 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:23:50,153 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2025-05-05 15:23:50,154 INFO [Thread-31] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 15:23:50,155 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:23:50,160 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 15:23:50,160 INFO [Thread-31] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:23:50,258 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:23:50,258 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:23:50,389 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:23:50,389 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:23:50,392 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:23:50,452 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 15:23:50,453 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:23:50,454 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 15:23:50,454 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 15:23:50,465 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 15:23:50,465 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 204 ms
+2025-05-05 15:23:50,536 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:23:50,607 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 15:23:50,613 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:23:50,616 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 15:23:50,618 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.386 seconds (process running for 358272.862)
+2025-05-05 15:23:50,618 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 15:23:50,629 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 21528 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:23:50,631 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:23:51,185 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:23:51,187 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:23:51,283 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 91 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:23:51,288 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:23:51,289 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:23:51,295 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 5 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:23:51,305 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:23:51,306 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:23:51,317 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:23:51,317 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:23:52,431 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:23:52,815 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:35:52,558 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 15:35:52,559 INFO [Thread-38] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 15:35:52,559 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:35:52,563 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 15:35:52,563 INFO [Thread-38] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:35:52,643 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:35:52,643 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:35:52,762 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:35:52,762 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:35:52,765 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:35:52,782 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 16168 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:35:52,783 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:35:52,827 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 15:35:52,828 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:35:52,828 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 15:35:52,828 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 15:35:52,840 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 15:35:52,840 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 195 ms
+2025-05-05 15:35:52,920 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:35:52,996 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 15:35:53,002 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:35:53,005 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 15:35:53,007 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.389 seconds (process running for 358995.251)
+2025-05-05 15:35:53,008 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 15:35:53,333 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:35:53,335 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:35:53,432 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 91 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:35:53,436 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:35:53,437 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:35:53,443 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 5 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:35:53,452 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:35:53,453 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:35:53,463 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:35:53,463 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:35:54,593 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:35:55,486 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:41:56,709 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 3 class path changes (2 additions, 0 deletions, 1 modification)
+2025-05-05 15:41:56,710 INFO [Thread-42] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 15:41:56,710 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:41:56,714 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 15:41:56,714 INFO [Thread-42] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:41:56,794 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:41:56,794 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:41:56,911 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:41:56,912 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:41:56,915 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:41:56,988 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 15:41:56,989 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:41:56,989 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 15:41:56,989 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 15:41:57,002 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 15:41:57,002 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 207 ms
+2025-05-05 15:41:57,068 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:41:57,130 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 15:41:57,135 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:41:57,138 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 15:41:57,140 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.369 seconds (process running for 359359.384)
+2025-05-05 15:41:57,141 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 15:41:57,209 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 11876 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:41:57,211 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:41:57,742 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:41:57,744 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:41:57,838 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 89 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:41:57,842 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:41:57,843 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:41:57,848 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:41:57,857 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:41:57,858 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:41:57,868 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:41:57,869 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:41:59,045 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:41:59,480 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:43:20,421 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 22172 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:43:20,423 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:43:20,505 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 15:43:20,506 INFO [Thread-46] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 15:43:20,506 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:20,510 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 15:43:20,510 INFO [Thread-46] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:20,610 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:43:20,610 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:43:20,735 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:20,735 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:43:20,739 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:43:20,789 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 15:43:20,789 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:20,790 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 15:43:20,790 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 15:43:20,802 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 15:43:20,802 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 191 ms
+2025-05-05 15:43:20,856 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:43:20,899 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 15:43:20,904 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:20,906 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 15:43:20,908 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.321 seconds (process running for 359443.152)
+2025-05-05 15:43:20,908 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 15:43:20,986 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:20,988 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:43:21,082 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 90 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:43:21,086 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:21,087 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:43:21,093 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:43:21,102 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:21,103 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:43:21,113 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:43:21,114 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:43:22,153 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:43:22,522 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:43:55,173 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 15:43:55,174 INFO [Thread-50] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 15:43:55,174 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:55,178 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 15:43:55,178 INFO [Thread-50] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:55,268 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:43:55,269 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:43:55,378 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:55,378 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:43:55,381 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:43:55,431 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 15:43:55,431 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:55,431 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 15:43:55,431 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 15:43:55,445 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 15:43:55,445 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 175 ms
+2025-05-05 15:43:55,501 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:43:55,515 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 29360 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:43:55,516 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:43:55,545 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 15:43:55,550 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:43:55,553 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 15:43:55,555 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.308 seconds (process running for 359477.8)
+2025-05-05 15:43:55,556 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 15:43:56,058 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:56,060 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:43:56,158 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 93 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:43:56,163 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:56,163 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:43:56,169 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:43:56,178 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:43:56,179 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:43:56,189 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:43:56,189 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:43:57,272 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:43:58,160 INFO [main] o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-05 15:45:16,063 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-05 15:45:16,064 INFO [Thread-54] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05 15:45:16,064 INFO [tomcat-shutdown] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:45:16,068 INFO [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2025-05-05 15:45:16,068 INFO [Thread-54] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:45:16,146 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:53] Starting CommunityApplication using Java 22.0.1 with PID 24140 (C:\Users\Yang\Desktop\interview\community\target\classes started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:45:16,146 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:45:16,207 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:53] Starting ElasticSearchTest using Java 22.0.1 with PID 28932 (started by Yang in C:\Users\Yang\Desktop\interview\community)
+2025-05-05 15:45:16,209 INFO [main] c.n.c.ElasticSearchTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-05-05 15:45:16,266 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:45:16,266 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:45:16,270 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:45:16,337 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-05-05 15:45:16,338 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:45:16,339 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2025-05-05 15:45:16,339 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-05 15:45:16,356 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2025-05-05 15:45:16,357 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] Root WebApplicationContext: initialization completed in 209 ms
+2025-05-05 15:45:16,434 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:45:16,506 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2025-05-05 15:45:16,512 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 15:45:16,514 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/community'
+2025-05-05 15:45:16,517 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.394 seconds (process running for 359558.761)
+2025-05-05 15:45:16,518 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2025-05-05 15:45:16,770 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:45:16,772 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:45:16,867 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 90 ms. Found 1 Elasticsearch repository interface.
+2025-05-05 15:45:16,871 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:45:16,872 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2025-05-05 15:45:16,878 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2025-05-05 15:45:16,887 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:295] Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 15:45:16,888 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 15:45:16,897 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:327] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-05-05 15:45:16,897 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-05-05 15:45:18,030 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2025-05-05 15:45:19,442 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:372] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 3000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-consumer-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2025-05-05 15:45:19,485 INFO [main] o.a.k.c.t.i.KafkaMetricsCollector [KafkaMetricsCollector.java:269] initializing Kafka metrics collector
+2025-05-05 15:45:19,613 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:124] Kafka version: 3.8.1
+2025-05-05 15:45:19,614 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:125] Kafka commitId: 70d6ff42debf7e17
+2025-05-05 15:45:19,614 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:126] Kafka startTimeMs: 1746431119612
+2025-05-05 15:45:19,617 INFO [main] o.a.k.c.c.i.LegacyKafkaConsumer [LegacyKafkaConsumer.java:476] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Subscribed to topic(s): test
+2025-05-05 15:45:19,628 INFO [main] c.n.c.ElasticSearchTest [StartupInfoLogger.java:59] Started ElasticSearchTest in 3.803 seconds (process running for 4.464)
+2025-05-05 15:45:19,843 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1017] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Node -1 disconnected.
+2025-05-05 15:45:19,954 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1017] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Node -1 disconnected.
+2025-05-05 15:45:20,014 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:109] HikariPool-1 - Starting...
+2025-05-05 15:45:20,077 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1017] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Node -1 disconnected.
+2025-05-05 15:45:20,155 INFO [main] c.z.h.p.HikariPool [HikariPool.java:554] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a5917f6
+2025-05-05 15:45:20,156 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:122] HikariPool-1 - Start completed.
+2025-05-05 15:45:20,330 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:1017] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Node -1 disconnected.
+2025-05-05 15:45:20,496 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [AbstractCoordinator.java:1055] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-05-05 15:45:20,497 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [AbstractCoordinator.java:1102] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Request joining group due to: consumer pro-actively leaving the group
+2025-05-05 15:45:20,497 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.LegacyKafkaConsumer [LegacyKafkaConsumer.java:547] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Unsubscribed all topics or patterns and assigned partitions
+2025-05-05 15:45:20,498 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [AbstractCoordinator.java:1055] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-05-05 15:45:20,498 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [AbstractCoordinator.java:1102] [Consumer clientId=consumer-test-consumer-group-1, groupId=test-consumer-group] Request joining group due to: consumer pro-actively leaving the group
+2025-05-05 15:45:20,501 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.m.Metrics [Metrics.java:684] Metrics scheduler closed
+2025-05-05 15:45:20,501 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.m.Metrics [Metrics.java:688] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-05 15:45:20,501 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.m.Metrics [Metrics.java:688] Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-05 15:45:20,501 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.m.Metrics [Metrics.java:694] Metrics reporters closed
+2025-05-05 15:45:20,504 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.u.AppInfoParser [AppInfoParser.java:88] App info kafka.consumer for consumer-test-consumer-group-1 unregistered
+2025-05-05 15:45:20,504 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [LogAccessor.java:292] test-consumer-group: Consumer stopped
+2025-05-05 15:45:20,517 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:349] HikariPool-1 - Shutdown initiated...
+2025-05-05 15:45:20,522 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:351] HikariPool-1 - Shutdown completed.
